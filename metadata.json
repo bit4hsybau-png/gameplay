@@ -1,0 +1,5 @@
+{
+  "name": "React Game Hub",
+  "description": "A fun web application featuring classic games like Tic-Tac-Toe and a Memory Game, built with React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
