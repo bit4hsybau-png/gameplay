@@ -10,13 +10,15 @@ if (!rootElement) {
   // Throwing here can make some setups show only a white screen with no console hint.
   // eslint-disable-next-line no-console
   console.error('Root element with id="root" not found. Ensure index.html contains <div id="root"></div>.');
-} else {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
-    <React.StrictMode>
-      <ErrorBoundary>
-        <App />
-      </ErrorBoundary>
-    </React.StrictMode>
-  );
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gameplay</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
